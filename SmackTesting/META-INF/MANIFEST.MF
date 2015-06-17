@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SmackTesting Plug-in
+Bundle-SymbolicName: smack.testing; singleton:=true
+Bundle-Version: 1.0.0
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.jivesoftware.smack
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
