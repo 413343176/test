@@ -1,0 +1,2 @@
+# ameba_recheck_authorization
+ameba复核授权
