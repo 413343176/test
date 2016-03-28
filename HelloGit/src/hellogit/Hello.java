@@ -5,5 +5,5 @@ public class Hello {
 		System.out.println("sss");
 		System.out.println("bug001");  
 		//sssfff
-	}
+	}   
 }
