@@ -36,7 +36,7 @@ public class Main {
 	private static Logger logger = Logger.getLogger(Main.class.getName());
 	private static String HOSTNAME = /*"localhost"*/"eclipsercp.org";
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {  
 		try {
 			FileHandler fileHandler1 = new FileHandler("eliza.log");
 			logger.addHandler(fileHandler1);
