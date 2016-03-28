@@ -58,7 +58,7 @@ public class Main {
 			} catch (Exception e) {      
 				e.printStackTrace();  
 			}
-		}
+		}  
 	}
 
 	private static void hookIncomingChatListener(final XMPPConnection connection) {
