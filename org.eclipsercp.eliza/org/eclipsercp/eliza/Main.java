@@ -31,7 +31,7 @@ import org.jivesoftware.smack.packet.Packet;
  * Simple xmpp chat echo bot. Accepts chat requests and returns the
  * source message as the chat response.
  */
-public class Main {   
+public class Main {      
 
 	private static Logger logger = Logger.getLogger(Main.class.getName());
 	private static String HOSTNAME = /*"localhost"*/"eclipsercp.org";
