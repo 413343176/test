@@ -79,7 +79,7 @@ public class Main {
 	private static void echo(XMPPConnection connection, Message in) {
 		Message out = new Message(in.getFrom(), Message.Type.CHAT);
 		out.setBody(in.getBody().toUpperCase());
-		out.setThread(in.getThread());
+		out.setThread(in.getThread());  
 		connection.sendPacket(out);
 	}
 }
